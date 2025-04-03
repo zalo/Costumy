@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-10,-10,136.8,74.60000000000001" >
+ <g class="DebugPanel" transform="translate(0,0)" >
+ <path id="front" d="M 0.0 54.6 L 48.4 54.6Q 48.4 40.5 46.5 33.2  Q 43.0 33.2 42.4 23.5  Q 41.9 13.7 44.8 2.0   L 36.5 0.0 Q 33.3 13.0 24.2 13.0  Q 15.1 13.0 11.899999999999999 0.0   L 3.599999999999998 2.0 Q 6.5 13.7 6.0 23.5  Q 5.399999999999999 33.2 1.8999999999999986 33.2  Q 0.0 40.5 0.0 54.6 Z" stroke="gray" stroke-linecap="round"  fill="gray" fill-opacity="0.1" stroke-width="0.5" />
+  <a class="annotation" href="https://yqnn.github.io/svg-path-editor/#P=M_0.0_54.6_L_48.4_54.6Q_48.4_40.5_46.5_33.2__Q_43.0_33.2_42.4_23.5__Q_41.9_13.7_44.8_2.0___L_36.5_0.0_Q_33.3_13.0_24.2_13.0__Q_15.1_13.0_11.899999999999999_0.0___L_3.599999999999998_2.0_Q_6.5_13.7_6.0_23.5__Q_5.399999999999999_33.2_1.8999999999999986_33.2__Q_0.0_40.5_0.0_54.6_Z">
+   <text x="24.2" y="27.3" font-size="5" font-family="monospace" text-anchor="middle" alignment-baseline="middle"  fill="black" > front </text> </a> <g class="Debug Lines"  >
+ <path id="front 0" d="M 0.0 54.6 L 48.4 54.6" stroke="#f23c3c" stroke-linecap="round"  fill="#f23c3c" fill-opacity="0" stroke-width="1.0" />
+  <a class="annotation" >
+  <circle cx="24.2" cy="54.6" r="2" fill="#f23c3c" stroke="black" stroke-width="0.1" />
+   <text x="24.2" y="54.6" font-size="3" font-family="monospace" text-anchor="middle" alignment-baseline="middle"  fill="black" > 0 </text> </a>
+<path id="front 1" d="M 48.4 54.6 Q 48.4 40.5 46.5 33.2 " stroke="#f2813c" stroke-linecap="round"  fill="#f2813c" fill-opacity="0" stroke-width="1.0" />
+  <a class="annotation" >
+  <circle cx="47.45" cy="43.900000000000006" r="2" fill="#f2813c" stroke="black" stroke-width="0.1" />
+   <text x="47.45" y="43.900000000000006" font-size="3" font-family="monospace" text-anchor="middle" alignment-baseline="middle"  fill="black" > 1 </text> </a>
+<path id="front 2" d="M 46.5 33.2 Q 43.0 33.2 42.4 23.5 " stroke="#f2c53c" stroke-linecap="round"  fill="#f2c53c" fill-opacity="0" stroke-width="1.0" />
+  <a class="annotation" >
+  <circle cx="44.45" cy="28.35" r="2" fill="#f2c53c" stroke="black" stroke-width="0.1" />
+   <text x="44.45" y="28.35" font-size="3" font-family="monospace" text-anchor="middle" alignment-baseline="middle"  fill="black" > 2 </text> </a>
+<path id="front 3" d="M 42.4 23.5 Q 41.9 13.7 44.8 2.0 " stroke="#a7f23c" stroke-linecap="round"  fill="#a7f23c" fill-opacity="0" stroke-width="1.0" />
+  <a class="annotation" >
+  <circle cx="43.563235294117646" cy="12.75" r="2" fill="#a7f23c" stroke="black" stroke-width="0.1" />
+   <text x="43.563235294117646" y="12.75" font-size="3" font-family="monospace" text-anchor="middle" alignment-baseline="middle"  fill="black" > 3 </text> </a>
+<path id="front 4" d="M 44.8 2.0 L 36.5 0.0" stroke="#3cf2d2" stroke-linecap="round"  fill="#3cf2d2" fill-opacity="0" stroke-width="1.0" />
+  <a class="annotation" >
+  <circle cx="40.65" cy="1.0" r="2" fill="#3cf2d2" stroke="black" stroke-width="0.1" />
+   <text x="40.65" y="1.0" font-size="3" font-family="monospace" text-anchor="middle" alignment-baseline="middle"  fill="black" > 4 </text> </a>
+<path id="front 5" d="M 36.5 0.0 Q 33.3 13.0 24.2 13.0 " stroke="#3c96f2" stroke-linecap="round"  fill="#3c96f2" fill-opacity="0" stroke-width="1.0" />
+  <a class="annotation" >
+  <circle cx="30.35" cy="6.5" r="2" fill="#3c96f2" stroke="black" stroke-width="0.1" />
+   <text x="30.35" y="6.5" font-size="3" font-family="monospace" text-anchor="middle" alignment-baseline="middle"  fill="black" > 5 </text> </a>
+<path id="front 6" d="M 24.2 13.0 Q 15.1 13.0 11.899999999999999 0.0 " stroke="#8d3cf2" stroke-linecap="round"  fill="#8d3cf2" fill-opacity="0" stroke-width="1.0" />
+  <a class="annotation" >
+  <circle cx="18.049999999999997" cy="6.5" r="2" fill="#8d3cf2" stroke="black" stroke-width="0.1" />
+   <text x="18.049999999999997" y="6.5" font-size="3" font-family="monospace" text-anchor="middle" alignment-baseline="middle"  fill="black" > 6 </text> </a>
+<path id="front 7" d="M 11.899999999999999 0.0 L 3.599999999999998 2.0" stroke="#f23c3c" stroke-linecap="round"  fill="#f23c3c" fill-opacity="0" stroke-width="1.0" />
+  <a class="annotation" >
+  <circle cx="7.749999999999998" cy="1.0" r="2" fill="#f23c3c" stroke="black" stroke-width="0.1" />
+   <text x="7.749999999999998" y="1.0" font-size="3" font-family="monospace" text-anchor="middle" alignment-baseline="middle"  fill="black" > 7 </text> </a>
+<path id="front 8" d="M 3.599999999999998 2.0 Q 6.5 13.7 6.0 23.5 " stroke="#f2813c" stroke-linecap="round"  fill="#f2813c" fill-opacity="0" stroke-width="1.0" />
+  <a class="annotation" >
+  <circle cx="4.836764705882352" cy="12.75" r="2" fill="#f2813c" stroke="black" stroke-width="0.1" />
+   <text x="4.836764705882352" y="12.75" font-size="3" font-family="monospace" text-anchor="middle" alignment-baseline="middle"  fill="black" > 8 </text> </a>
+<path id="front 9" d="M 6.0 23.5 Q 5.399999999999999 33.2 1.8999999999999986 33.2 " stroke="#f2c53c" stroke-linecap="round"  fill="#f2c53c" fill-opacity="0" stroke-width="1.0" />
+  <a class="annotation" >
+  <circle cx="3.9499999999999993" cy="28.35" r="2" fill="#f2c53c" stroke="black" stroke-width="0.1" />
+   <text x="3.9499999999999993" y="28.35" font-size="3" font-family="monospace" text-anchor="middle" alignment-baseline="middle"  fill="black" > 9 </text> </a>
+<path id="front 10" d="M 1.8999999999999986 33.2 Q 0.0 40.5 0.0 54.6 " stroke="#a7f23c" stroke-linecap="round"  fill="#a7f23c" fill-opacity="0" stroke-width="1.0" />
+  <a class="annotation" >
+  <circle cx="0.9499999999999993" cy="43.900000000000006" r="2" fill="#a7f23c" stroke="black" stroke-width="0.1" />
+   <text x="0.9499999999999993" y="43.900000000000006" font-size="3" font-family="monospace" text-anchor="middle" alignment-baseline="middle"  fill="black" > 10 </text> </a> </g>
+ <g class="Debug Points"  >
+ <circle class="DebugDot" cx="0.0" cy="54.6" r="1" stroke="black" stroke-width="0.4" fill="black" fill-opacity="0.7"><title>X 0.0  Y 54.6</title></circle>
+<circle class="DebugDot" cx="48.4" cy="54.6" r="1" stroke="black" stroke-width="0.4" fill="black" fill-opacity="0.7"><title>X 48.4  Y 54.6</title></circle>
+<circle class="DebugDot" cx="46.5" cy="33.2" r="1" stroke="black" stroke-width="0.4" fill="black" fill-opacity="0.7"><title>X 46.5  Y 33.2</title></circle>
+<circle class="DebugDot" cx="42.4" cy="23.5" r="1" stroke="black" stroke-width="0.4" fill="black" fill-opacity="0.7"><title>X 42.4  Y 23.5</title></circle>
+<circle class="DebugDot" cx="44.8" cy="2.0" r="1" stroke="black" stroke-width="0.4" fill="black" fill-opacity="0.7"><title>X 44.8  Y 2.0</title></circle>
+<circle class="DebugDot" cx="36.5" cy="0.0" r="1" stroke="black" stroke-width="0.4" fill="black" fill-opacity="0.7"><title>X 36.5  Y 0.0</title></circle>
+<circle class="DebugDot" cx="24.2" cy="13.0" r="1" stroke="black" stroke-width="0.4" fill="black" fill-opacity="0.7"><title>X 24.2  Y 13.0</title></circle>
+<circle class="DebugDot" cx="11.9" cy="0.0" r="1" stroke="black" stroke-width="0.4" fill="black" fill-opacity="0.7"><title>X 11.9  Y 0.0</title></circle>
+<circle class="DebugDot" cx="3.6" cy="2.0" r="1" stroke="black" stroke-width="0.4" fill="black" fill-opacity="0.7"><title>X 3.6  Y 2.0</title></circle>
+<circle class="DebugDot" cx="6.0" cy="23.5" r="1" stroke="black" stroke-width="0.4" fill="black" fill-opacity="0.7"><title>X 6.0  Y 23.5</title></circle>
+<circle class="DebugDot" cx="1.9" cy="33.2" r="1" stroke="black" stroke-width="0.4" fill="black" fill-opacity="0.7"><title>X 1.9  Y 33.2</title></circle> </g>
+  </g>
+<g class="DebugPanel" transform="translate(58.4,0)" >
+ <path id="back" d="M 0.0 54.6 L 48.4 54.6Q 48.4 40.5 46.5 33.2  Q 37.1 33.2 44.8 2.0   L 36.5 0.0 Q 35.9 2.3000000000000007 24.2 2.3000000000000007  Q 12.5 2.3000000000000007 11.899999999999999 0.0   L 3.599999999999998 2.0 Q 11.299999999999999 33.2 1.8999999999999986 33.2  Q 0.0 40.5 0.0 54.6 Z" stroke="gray" stroke-linecap="round"  fill="gray" fill-opacity="0.1" stroke-width="0.5" />
+  <a class="annotation" href="https://yqnn.github.io/svg-path-editor/#P=M_0.0_54.6_L_48.4_54.6Q_48.4_40.5_46.5_33.2__Q_37.1_33.2_44.8_2.0___L_36.5_0.0_Q_35.9_2.3000000000000007_24.2_2.3000000000000007__Q_12.5_2.3000000000000007_11.899999999999999_0.0___L_3.599999999999998_2.0_Q_11.299999999999999_33.2_1.8999999999999986_33.2__Q_0.0_40.5_0.0_54.6_Z">
+   <text x="24.2" y="27.3" font-size="5" font-family="monospace" text-anchor="middle" alignment-baseline="middle"  fill="black" > back </text> </a> <g class="Debug Lines"  >
+ <path id="back 0" d="M 0.0 54.6 L 48.4 54.6" stroke="#f23c3c" stroke-linecap="round"  fill="#f23c3c" fill-opacity="0" stroke-width="1.0" />
+  <a class="annotation" >
+  <circle cx="24.2" cy="54.6" r="2" fill="#f23c3c" stroke="black" stroke-width="0.1" />
+   <text x="24.2" y="54.6" font-size="3" font-family="monospace" text-anchor="middle" alignment-baseline="middle"  fill="black" > 0 </text> </a>
+<path id="back 1" d="M 48.4 54.6 Q 48.4 40.5 46.5 33.2 " stroke="#f2813c" stroke-linecap="round"  fill="#f2813c" fill-opacity="0" stroke-width="1.0" />
+  <a class="annotation" >
+  <circle cx="47.45" cy="43.900000000000006" r="2" fill="#f2813c" stroke="black" stroke-width="0.1" />
+   <text x="47.45" y="43.900000000000006" font-size="3" font-family="monospace" text-anchor="middle" alignment-baseline="middle"  fill="black" > 1 </text> </a>
+<path id="back 2" d="M 46.5 33.2 Q 37.1 33.2 44.8 2.0 " stroke="#f2c53c" stroke-linecap="round"  fill="#f2c53c" fill-opacity="0" stroke-width="1.0" />
+  <a class="annotation" >
+  <circle cx="43.91637426900585" cy="17.6" r="2" fill="#f2c53c" stroke="black" stroke-width="0.1" />
+   <text x="43.91637426900585" y="17.6" font-size="3" font-family="monospace" text-anchor="middle" alignment-baseline="middle"  fill="black" > 2 </text> </a>
+<path id="back 3" d="M 44.8 2.0 L 36.5 0.0" stroke="#a7f23c" stroke-linecap="round"  fill="#a7f23c" fill-opacity="0" stroke-width="1.0" />
+  <a class="annotation" >
+  <circle cx="40.65" cy="1.0" r="2" fill="#a7f23c" stroke="black" stroke-width="0.1" />
+   <text x="40.65" y="1.0" font-size="3" font-family="monospace" text-anchor="middle" alignment-baseline="middle"  fill="black" > 3 </text> </a>
+<path id="back 4" d="M 36.5 0.0 Q 35.9 2.3000000000000007 24.2 2.3000000000000007 " stroke="#3cf2d2" stroke-linecap="round"  fill="#3cf2d2" fill-opacity="0" stroke-width="1.0" />
+  <a class="annotation" >
+  <circle cx="30.35" cy="1.1500000000000004" r="2" fill="#3cf2d2" stroke="black" stroke-width="0.1" />
+   <text x="30.35" y="1.1500000000000004" font-size="3" font-family="monospace" text-anchor="middle" alignment-baseline="middle"  fill="black" > 4 </text> </a>
+<path id="back 5" d="M 24.2 2.3000000000000007 Q 12.5 2.3000000000000007 11.899999999999999 0.0 " stroke="#3c96f2" stroke-linecap="round"  fill="#3c96f2" fill-opacity="0" stroke-width="1.0" />
+  <a class="annotation" >
+  <circle cx="18.049999999999997" cy="1.1500000000000004" r="2" fill="#3c96f2" stroke="black" stroke-width="0.1" />
+   <text x="18.049999999999997" y="1.1500000000000004" font-size="3" font-family="monospace" text-anchor="middle" alignment-baseline="middle"  fill="black" > 5 </text> </a>
+<path id="back 6" d="M 11.899999999999999 0.0 L 3.599999999999998 2.0" stroke="#8d3cf2" stroke-linecap="round"  fill="#8d3cf2" fill-opacity="0" stroke-width="1.0" />
+  <a class="annotation" >
+  <circle cx="7.749999999999998" cy="1.0" r="2" fill="#8d3cf2" stroke="black" stroke-width="0.1" />
+   <text x="7.749999999999998" y="1.0" font-size="3" font-family="monospace" text-anchor="middle" alignment-baseline="middle"  fill="black" > 6 </text> </a>
+<path id="back 7" d="M 3.599999999999998 2.0 Q 11.299999999999999 33.2 1.8999999999999986 33.2 " stroke="#f23c3c" stroke-linecap="round"  fill="#f23c3c" fill-opacity="0" stroke-width="1.0" />
+  <a class="annotation" >
+  <circle cx="4.4836257309941505" cy="17.6" r="2" fill="#f23c3c" stroke="black" stroke-width="0.1" />
+   <text x="4.4836257309941505" y="17.6" font-size="3" font-family="monospace" text-anchor="middle" alignment-baseline="middle"  fill="black" > 7 </text> </a>
+<path id="back 8" d="M 1.8999999999999986 33.2 Q 0.0 40.5 0.0 54.6 " stroke="#f2813c" stroke-linecap="round"  fill="#f2813c" fill-opacity="0" stroke-width="1.0" />
+  <a class="annotation" >
+  <circle cx="0.9499999999999993" cy="43.900000000000006" r="2" fill="#f2813c" stroke="black" stroke-width="0.1" />
+   <text x="0.9499999999999993" y="43.900000000000006" font-size="3" font-family="monospace" text-anchor="middle" alignment-baseline="middle"  fill="black" > 8 </text> </a> </g>
+ <g class="Debug Points"  >
+ <circle class="DebugDot" cx="0.0" cy="54.6" r="1" stroke="black" stroke-width="0.4" fill="black" fill-opacity="0.7"><title>X 0.0  Y 54.6</title></circle>
+<circle class="DebugDot" cx="48.4" cy="54.6" r="1" stroke="black" stroke-width="0.4" fill="black" fill-opacity="0.7"><title>X 48.4  Y 54.6</title></circle>
+<circle class="DebugDot" cx="46.5" cy="33.2" r="1" stroke="black" stroke-width="0.4" fill="black" fill-opacity="0.7"><title>X 46.5  Y 33.2</title></circle>
+<circle class="DebugDot" cx="44.8" cy="2.0" r="1" stroke="black" stroke-width="0.4" fill="black" fill-opacity="0.7"><title>X 44.8  Y 2.0</title></circle>
+<circle class="DebugDot" cx="36.5" cy="0.0" r="1" stroke="black" stroke-width="0.4" fill="black" fill-opacity="0.7"><title>X 36.5  Y 0.0</title></circle>
+<circle class="DebugDot" cx="24.2" cy="2.3" r="1" stroke="black" stroke-width="0.4" fill="black" fill-opacity="0.7"><title>X 24.2  Y 2.3</title></circle>
+<circle class="DebugDot" cx="11.9" cy="0.0" r="1" stroke="black" stroke-width="0.4" fill="black" fill-opacity="0.7"><title>X 11.9  Y 0.0</title></circle>
+<circle class="DebugDot" cx="3.6" cy="2.0" r="1" stroke="black" stroke-width="0.4" fill="black" fill-opacity="0.7"><title>X 3.6  Y 2.0</title></circle>
+<circle class="DebugDot" cx="1.9" cy="33.2" r="1" stroke="black" stroke-width="0.4" fill="black" fill-opacity="0.7"><title>X 1.9  Y 33.2</title></circle> </g>
+  </g>
+ </svg>

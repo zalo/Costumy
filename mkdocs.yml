@@ -1,0 +1,106 @@
+
+site_name: "Costumy Docs"
+
+theme:
+  name: material
+  logo: assets/media/costumy.svg
+  favicon: assets/media/costumy.svg
+  features:
+    - navigation.instant
+    - navigation.sections
+    - content.code.copy
+    - content.code.annotate
+    - navigation.footer
+
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra_css:
+  - assets/css/python_api.css #docstring 
+  - assets/css/tabs.css       #border around tabs
+  - assets/css/code.css       #code colors in dark mode
+  - assets/css/text.css       #Smaller text, stronger headings, marked links
+
+markdown_extensions:
+  - abbr                    # tooltips and popups
+  - admonition              # callouts
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.tabbed:        #tabs
+      alternate_style: true
+  
+nav:
+  - Home: index.md
+  - Installation : installation.md
+  - Usage:
+    - Usage/Usage.md
+    - Usage/examples.md
+
+  - About:
+    - About/limitations.md
+    - About/licenses.md
+
+  - Dev:
+    - Dev/measures.md
+    - Dev/bodies.md
+    - Dev/designs.md
+    - Dev/docs.md
+    - Dev/testing.md
+    - Python API:
+      - Python/Pattern.md
+      - Python/Panel.md
+      - Python/Design.md
+      - Python/Body.md
+
+
+plugins:
+- search
+- autorefs
+- callouts
+- privacy:
+    enabled: !ENV [CI, false]
+
+
+
+
+- mkdocstrings:
+    handlers:
+      python:
+        options:
+        # Code
+          docstring_style: google
+          members_order: source
+
+        # Headings
+          group_by_category: true
+          show_category_heading: false
+          show_root_heading: true
+          parameter_headings: false
+          show_symbol_type_heading: true
+        
+        # Nav
+          show_symbol_type_toc: true
+        
+        # Signature
+          separate_signature: false
+          show_signature: true
+          show_signature_annotations: false
+          signature_crossrefs: true

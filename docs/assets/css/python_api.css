@@ -1,0 +1,83 @@
+
+/* Changes css on Python pages, generated with mkdocstrings */
+
+div.doc.doc-object.doc-attribute,
+div.doc.doc-object.doc-function
+{
+    margin-top: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    outline: .08rem solid rgba(0,0,0,0);
+    transition: 0.4s ;
+}
+
+div.doc.doc-object.doc-attribute:hover,
+div.doc.doc-object.doc-function:hover
+{
+    outline: .08rem solid var(--md-typeset-table-color);
+    background-color: rgba(250,250,250,0.01);
+}
+
+
+/* Tight layout  */
+div.doc.doc-object.doc-attribute > .doc-heading,
+div.doc.doc-object.doc-function > .doc-heading
+{
+    margin: auto;
+}
+
+div.doc.doc-object.doc-attribute > .doc-contents,
+div.doc.doc-object.doc-function > .doc-contents
+{
+    margin: 4px 8px;
+}
+
+
+/* Subtle Show source code block */
+div.doc.doc-object.doc-function > .doc-contents > .quote,
+div.doc.doc-object.doc-attribute > .doc-contents > .quote{
+    opacity: 0.65;
+}
+
+div.doc.doc-object.doc-function > .doc-contents > .quote[open],
+div.doc.doc-object.doc-attribute > .doc-contents > .quote[open]{
+    opacity: 0.9;
+}
+
+
+/* Hides the attributes full declratation, keep only the name. */
+.doc-attribute > .doc-heading > .highlight > :first-child {
+    display: inherit;
+}
+.doc-attribute > .doc-heading > .highlight > *{
+    display: none;
+}
+
+
+/* Name in bold, args smaller  */
+
+.doc-attribute > .doc-heading > .highlight > :first-child,
+.doc-function > .doc-heading > .highlight > :first-child {
+    font-weight: bolder;
+    font-size: inherit;
+}
+
+.doc-attribute > .doc-heading > .highlight > *,
+.doc-function > .doc-heading > .highlight > * {
+    font-size: small;
+}
+
+
+/* Short labels for common symbols */
+
+.doc-symbol-attribute::after {
+content: "A" !important;
+}
+
+.doc-symbol-function::after {
+content: "F" !important;
+}
+
+.doc-symbol-method::after {
+content: "M" !important;
+}

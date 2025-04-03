@@ -1,0 +1,80 @@
+{
+    "$schema": "../schemas/measurements_definitions.json",
+    "measures": {
+        "biceps": {
+            "method": "bisect",
+            "vertices": [4855],
+            "normal": ["R_Shoulder","R_Elbow"],
+            "mask": ["R_Shoulder"]
+        },
+        "chest": {
+            "method": "bisect",
+            "vertices": [6489],
+            "normal": ["Pelvis","Spine3"],
+            "mask": ["Spine2","Spine3"]
+        },
+        "hips": {
+            "method": "bisect",
+            "vertices": [4297],
+            "mask": ["Pelvis","R_Hip"],
+            "normal": ["Pelvis","Spine3"]
+        },
+        "hpsToBust": {
+            "method": "length",
+            "vertices": [4198,4111,6489]
+        },
+        "hpsToWaistBack": {
+            "method": "length",
+            "vertices": [4198,4376]
+        },
+        "neck": {
+            "method": "bisect",
+            "vertices": [3068,3730,218],
+            "mask": ["Neck"],
+            "normal": ["Spine2","Head"]
+        },
+        "shoulderToShoulder": {
+            "method": "length",
+            "vertices": [3011,6470]
+        },
+        "waistToHips": {
+            "method": "length",
+            "vertices": [4121,4297]
+        },
+        "waistToUnderbust": {
+            "method": "length",
+            "vertices": [4121,4106]
+        },
+        "waist": {
+            "method": "bisect",
+            "vertices": [4121],
+            "mask": ["Pelvis","Spine1"],
+            "normal": ["Pelvis","Spine3"]
+        },
+        "highBust": {
+            "method": "bisect",
+            "vertices": [
+                3495
+            ],
+            "mask": [
+                "Spine3",
+                "Spine2",
+                "L_Collar",
+                "R_Collar"],
+            "normal": [
+                "Pelvis",
+                "Spine3"
+            ]
+        }
+    },
+    "references": {
+        "neck":{
+            "method": "position",
+            "vertices": [3168]
+        },
+        "navel":{
+            "method": "position",
+            "vertices": [3500]
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "$schema": "../schemas/measurements_definitions.json",
+    "measures":
+    {
+        "biceps":{
+            "method": "length",
+            "vertices": [7856,7845,7844,7830,7828,7829,7868,7970,7944,7897,17934,7896,17930,7907]
+        },
+        "chest":{
+            "method"  :"bisect",
+            "vertices":[8067],
+            "normal": [0,0,1],
+            "mask"    :["spine.003"]
+        },
+        "hips":{
+            "method": "bisect",
+            "vertices":[11159],
+            "normal": [0,0,1],
+            "mask": ["spine","spine.001"]
+        },
+
+        "neck":{
+            "method": "bisect",
+            "vertices":[7702,17741,7739],
+            "mask": ["spine.005","spine.004"]
+        },
+
+        "hpsToWaistBack":{
+            "method": "length",
+            "vertices": [17752,17763,7726,11032]
+        },
+
+        "hpsToBust":{
+            "method": "length",
+            "vertices": [18064,8115,7634]
+        },
+
+        "waistToHips":{
+            "method": "length",
+            "vertices": [11145, 11110]
+        },
+
+        "shoulderToShoulder":{
+            "method": "length",
+            "vertices": [2866,8003,7772]
+        },
+
+        "waistToArmpit":{
+            "method": "length",
+            "vertices": [7713,11149]
+        }
+    },
+    "references":{
+        "neck":{ "method":"position", "vertices":[7738]},
+        "navel":{ "method": "position","vertices": [11257]},
+        "bounds":{"method": "bounds","vertices": []}
+    }
+
+}

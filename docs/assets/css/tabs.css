@@ -1,0 +1,8 @@
+
+/* Add an outline around tabbed content */
+.tabbed-set.tabbed-alternate{
+    outline: thin solid color-mix(in srgb, var(--md-default-fg-color--light), #000 50%);
+}
+.tabbed-set.tabbed-alternate > .tabbed-content{
+    padding: 5px;
+}

@@ -1,0 +1,14 @@
+[data-md-color-scheme=slate]{
+ --md-code-hl-comment-color : #659151 !important;
+ --md-code-hl-number-color : #B5CEA8;
+ --md-code-hl-special-color : #569CD6;
+ --md-code-hl-function-color :#E8E8E8 ;
+ --md-code-hl-constant-color : #569CD6 ;
+ --md-code-hl-keyword-color : #569CD6;
+ --md-code-hl-string-color : #CE9178 ;
+ --md-code-hl-name-color : ;
+ --md-code-hl-operator-color :  ;
+ --md-code-hl-punctuation-color :    #FAC03B ;
+ --md-code-hl-generic-color : ;
+ --md-code-hl-variable-color :    #D4D4D4 ;
+}

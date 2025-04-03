@@ -1,0 +1,12 @@
+.md-typeset h2{
+    font-weight: 500;
+    border-bottom: thin solid var(--md-default-fg-color--light);
+}
+
+.md-typeset{
+    font-size: .75rem;
+}
+
+.md-content a[href^="http"]{
+    text-decoration: underline;
+}

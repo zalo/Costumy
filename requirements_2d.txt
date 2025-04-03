@@ -1,0 +1,12 @@
+# Minimal requirements for costumy for 2D manipulation only
+
+# anything 3D related will not work, such as:
+#   - costumy.classes.body and its subclasses (SMPL, MBLAB..)
+#   - costumy.simulate
+#   - costumy.classes.Pattern.as_garment()
+
+svg.path==6.3       # for svg conversion
+matplotlib==3.8.3   # just for costumy.classes.Pattern.as_plot()
+numpy==1.26.4       # for some functions, but could be removed after refactoring
+
+# You also need to install node.js

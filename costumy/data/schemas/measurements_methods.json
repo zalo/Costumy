@@ -1,0 +1,96 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "anyOf": [
+        {
+            "properties": {
+                "method": {
+                    "const": "bisect",
+                    "description": "Cut the mesh with a plane defined by a position and a normal. Typical use for circumference"
+                },
+                "vertices": {
+                    "description": "One or tree vertices index used to position and orient the cutting plane.\nIf only one vertex, the normal must be defined.",
+                    "oneOf": [
+                        {
+                            "type": "array",
+                            "contains": {"type":"integer"},
+                            "minContains": 3,
+                            "maxContains": 3
+                        },
+                        {
+                            "type": "array",
+                            "contains": {"type":"integer"},
+                            "minContains": 1,
+                            "maxContains": 1
+                        }
+                    ]
+                },
+                "normal":{
+                    "description": "Normal of the plane used to cut the mesh.\nCan be a joint name, two joint (A pointing to B) or a normal vector ([0,0,1] is parallel to floor)\nThe normal is auto defined if tree vertex are used in 'vertices'.",
+                    "oneOf": [
+                        {"type":"array","minItems":3,"maxItems": 3, "items": {"type":"number"}, 
+                        "$comment": "Blender axis, predefined normal."},
+
+                        {"type":"array","minItems":2, "maxItems": 2, 
+                        "$comment": "Direction from a joint to another (SMPL has weird joints)"},
+                        
+                        {"type":"string", 
+                        "$comment": "Normal of a joint"}
+                    ],
+                    "default":[]
+                },
+                "mask":{
+                    "description": "List of vertices index and/or name of skinned areas to use as a selection when cutting the mesh.\nFor example, one could use 'thigh_R' as a mask to mesure the right thight.\nLeave empty to use all the mesh",
+                    "type":"array","items": {"type":["string","integer"]},
+                    "default":[]
+                }
+            }
+        },
+        {
+            "properties": {
+                "method": {
+                    "const": "length",
+                    "description": "Sum of the distance between each vertices. Use `Path` to get a length that follows the body shape. The order in which they are specified matters. [a->b->c]"
+                },
+                "vertices":{
+                    "description": "list of vertices index to measure the distance between. The order matters (a->b->c) != (a->c->b)",
+                    "default": [],
+                    "examples": [[0,1,2,3,4,5,0]]
+                }
+            }
+        },
+        {
+            "properties": {
+                "method": {
+                    "const": "path",
+                    "description": "Measure the length between vertices directly on the surface. Sum of the distance between each vertices. The order in which they are specified matters. [a->b->c]"
+                },
+                "vertices":{
+                    "description": "list of vertices index to measure the distance between. The order matters (a->b->c) != (a->c->b)",
+                    "default": [],
+                    "examples": [[0,1,2,3,4,5]]
+                }
+            }
+        },
+
+        {"properties": {
+            "method":{
+                "const":"position",
+                "description": "Retreive the position of a single vertex"},
+            "vertices":{
+                "type": "array",
+                "contains": {"type":"integer"},
+                "minContains": 1,
+                "maxContains": 1,
+                "description": "Vertex index to retreive the position"}
+        }},
+        {"properties": {
+            "method":{
+                "const":"bounds",
+                "description": "Retreive the minimum and maximum positions of a group of vertices (as a bounding box)"},
+            "vertices":{
+                "type": "array",
+                "items": {"type":"integer"},
+                "description": "Vertices index used to retreive the minimum and maximum positions. Leave empty for the whole mesh."}
+        }}
+    ]
+}
